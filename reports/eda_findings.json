@@ -1,0 +1,133 @@
+{
+  "location_non_text_cells": 29,
+  "rows": 7613,
+  "cols": 5,
+  "missing_pct": {
+    "id": 0.0,
+    "keyword": 0.8,
+    "location": 33.29,
+    "text": 0.0,
+    "target": 0.0
+  },
+  "class_counts": {
+    "Non-disaster": 4342,
+    "Disaster": 3271
+  },
+  "disaster_share": 0.4297,
+  "n_keywords": 221,
+  "keywords_highest_rate": [
+    "debris",
+    "wreckage",
+    "derailment",
+    "outbreak",
+    "typhoon"
+  ],
+  "keywords_lowest_rate": [
+    "aftershock",
+    "body bags",
+    "ruin",
+    "blazing",
+    "body bag"
+  ],
+  "keyword_rate_range": [
+    0.0,
+    1.0
+  ],
+  "keyword_chi2_p": 0.0,
+  "location_unique": 3278,
+  "location_missing_pct": 33.3,
+  "length_summary": {
+    "n_chars": {
+      "Non-disaster": 96.3,
+      "Disaster": 108.83
+    },
+    "n_words": {
+      "Non-disaster": 14.7,
+      "Disaster": 15.17
+    },
+    "avg_word_len": {
+      "Non-disaster": 5.91,
+      "Disaster": 6.51
+    }
+  },
+  "artifact_pct_by_class": {
+    "Non-disaster": {
+      "Contains URL": 41.4,
+      "Has hashtag": 20.4,
+      "Has @mention": 31.0,
+      "Has '!'": 12.0,
+      "Has '?'": 17.3,
+      "Contains digit": 51.0,
+      "Encoding junk / HTML entity": 12.7,
+      "Retweet": 0.4
+    },
+    "Disaster": {
+      "Contains URL": 66.4,
+      "Has hashtag": 26.3,
+      "Has @mention": 20.4,
+      "Has '!'": 6.0,
+      "Has '?'": 8.9,
+      "Contains digit": 73.9,
+      "Encoding junk / HTML entity": 14.0,
+      "Retweet": 0.6
+    }
+  },
+  "vocab_size": 13734,
+  "total_tokens": 62242,
+  "hapax_pct": 56.3,
+  "stopword_share": 37.9,
+  "top_bigrams_disaster": [
+    "suicide bomber",
+    "northern california",
+    "oil spill",
+    "burning buildings",
+    "suicide bombing",
+    "california wildfire",
+    "bomber detonated",
+    "confirmed mh"
+  ],
+  "top_bigrams_non": [
+    "cross body",
+    "liked video",
+    "body bag",
+    "body bagging",
+    "burning buildings",
+    "body bags",
+    "quarantine offensive",
+    "reddit quarantine"
+  ],
+  "most_disaster_words": [
+    "northern",
+    "legionnaires",
+    "debris",
+    "severe",
+    "migrants",
+    "derailment",
+    "investigators",
+    "mosque",
+    "detonated",
+    "hiroshima"
+  ],
+  "most_nondisaster_words": [
+    "aftershock",
+    "lmao",
+    "disney",
+    "bags",
+    "bag",
+    "ruin",
+    "ebay",
+    "electrocute",
+    "leather",
+    "ball"
+  ],
+  "rows_in_duplicate_groups": 179,
+  "conflicting_label_texts": 18,
+  "junk_pct": 13.3,
+  "url_pct": 52.2,
+  "strongest_meta_corr": {
+    "has_url": 0.247,
+    "has_digit": 0.232,
+    "n_chars": 0.181,
+    "avg_word_len": 0.176
+  }
+}

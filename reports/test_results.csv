@@ -1,0 +1,6 @@
+model,accuracy,precision,recall,f1,roc_auc,avg_precision
+Linear SVM (tuned),0.7829,0.763,0.7116,0.7364,0.8435,0.8354
+Logistic Regression (tuned),0.7776,0.744,0.7288,0.7363,0.843,0.8381
+MLP (neural net),0.7896,0.8372,0.6285,0.718,0.8422,0.8379
+Multinomial NB,0.7889,0.8426,0.6207,0.7148,0.8379,0.8338
+Random Forest,0.7582,0.7974,0.5799,0.6715,0.8164,0.8056
